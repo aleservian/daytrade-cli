@@ -1,0 +1,7 @@
+.coveralls.yml
+.editorconfig
+.travis.yml
+npm_debug.log
+LICENSE
+tests/
+coverage/
