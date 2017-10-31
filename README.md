@@ -1,2 +1,2 @@
 # daytrade-cli
-Cli for trade
+Cli for trader

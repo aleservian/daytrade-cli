@@ -1,0 +1,39 @@
+{
+  "name": "daytrade-cli",
+  "version": "0.0.1",
+  "description": "CLI for trader",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test/**/*_spec.js",
+    "coverage": "istanbul cover _mocha test/**/*_spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aleservian/daytrade-cli.git"
+  },
+  "keywords": [
+    "trade",
+    "cli",
+    "day-trade"
+  ],
+  "author": "alexandre servian <alexandreservian@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aleservian/daytrade-cli/issues"
+  },
+  "preferGlobal": true,
+  "bin": {
+    "daytrade": "index.js"
+  },
+  "homepage": "https://github.com/aleservian/daytrade-cli#readme",
+  "dependencies": {
+    "commander": "^2.11.0",
+    "request": "^2.83.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2"
+  }
+}
