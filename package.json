@@ -30,8 +30,12 @@
   },
   "homepage": "https://github.com/aleservian/daytrade-cli#readme",
   "dependencies": {
+    "chalk": "^2.3.0",
+    "cheerio": "^1.0.0-rc.2",
     "commander": "^2.11.0",
-    "request": "^2.83.0"
+    "ora": "^1.3.0",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2"
   },
   "devDependencies": {
     "chai": "^4.1.2"
